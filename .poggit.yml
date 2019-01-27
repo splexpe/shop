@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/splexpe/shop
+branches:
+- master
+projects:
+  shop:
+    path: ""
+...
