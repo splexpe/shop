@@ -1,2 +1,1 @@
-# PlexiumPE-ShopGUI
-PlexiumPE-ShopGUI | CustomPotions Added! | *Warning* - Must Have PlexiumPE-CORE To Enable CustomPotions!
+ShopUI Plugin, edit items in the Main.php file
