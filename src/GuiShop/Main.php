@@ -149,13 +149,13 @@ public $Blocks = [
   public $Mobs = [
     "ICON" => ["Mobs",52,0],
     "Chicken" => [52,10,10000,5000],
-    "Cow" => [52,11,20000,15000],
-    "Sheep" => [52,13,3000025000],
-    "Skeleton" => [52,34,40000,35000],
-    "Zombie" => [52,32,55000,44000],
+    "Cow" => [52,11,20000,5000],
+    "Sheep" => [52,13,30000,5000],
+    "Skeleton" => [52,34,40000,5000],
+    "Zombie" => [52,32,55000,5000],
     "Blaze" => [52,43,500000,5000],
-    "Iron Golem" => [52,20,100000,500000],
-    "Zombie Pigman" => [52,36,1000000,50000]
+    "Iron Golem" => [52,20,100000,5000],
+    "Zombie Pigman" => [52,36,1000000,5000]
   ];
 
   public $Potions = [
@@ -165,6 +165,7 @@ public $Blocks = [
     "Speed" => [373,16,1000,500],
     "Fire Resistance" => [373,13,1000,100],
     "Poison (SPLASH)" => [438,27,1000,100],
+    "Healing II (SPLASH)" => [438,22,1000,100],
     "Weakness (SPLASH)" => [438,35,1000,100],
     "Slowness (SPLASH)" => [438,17,1000,100]
   ];
@@ -189,21 +190,21 @@ public $Blocks = [
   
   public $Banners = [
    "ICON" => ["Banners",446,0],
-   "Black Banner" => [446,0,1000,100],
-   "Red Banner" => [446,1,2000,200],
-   "Green Banner" => [446,2,3000,300],
-   "Brown Banner" => [446,3,4000,400],
-   "Blue Banner" => [446,4,5000,500],
-   "Purple Banner" => [446,5,6000,600],
-   "Cyan Banner" => [446,6,7000,700],
-   "Light Gray Banner" => [446,7,8000,800],
-   "Gray Banner" => [446,8,9000,900],
-   "Pink Banner" => [446,9,10000,1000],
-   "Lime Banner" => [446,10,11000,1100],
-   "Yellow Banner" => [446,11,12000,1200],
-   "Light Blue Banner" => [446,12,13000,1300],
-   "Magenta Banner" => [446,13,14000,1400],
-   "Orange Banner" => [446,14,15000,1500]
+   "Black Banner" => [446,0,1000,0],
+   "Red Banner" => [446,1,2000,0],
+   "Green Banner" => [446,2,3000,0],
+   "Brown Banner" => [446,3,4000,0],
+   "Blue Banner" => [446,4,5000,0],
+   "Purple Banner" => [446,5,6000,0],
+   "Cyan Banner" => [446,6,7000,0],
+   "Light Gray Banner" => [446,7,8000,0],
+   "Gray Banner" => [446,8,9000,0],
+   "Pink Banner" => [446,9,10000,0],
+   "Lime Banner" => [446,10,11000,0],
+   "Yellow Banner" => [446,11,12000,0],
+   "Light Blue Banner" => [446,12,13000,0],
+   "Magenta Banner" => [446,13,14000,0],
+   "Orange Banner" => [446,14,15000,0]
  ];
 	
   public function onEnable(){
