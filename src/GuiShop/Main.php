@@ -35,7 +35,7 @@ public $Blocks = [
     "Dark Oak Wood" => [162,1,30,15],
 	"Cobblestone" => [4,0,10,5],
 	"Obsidian" => [49,0,500,250],
-	"Bedrock" => [7,0,1500,500],
+	"Bedrock" => [7,0,150000,500],
 	"Sand " => [12,0,15,7],
     "Sandstone " => [24,0,15,7],
 	"Nether Rack" => [87,0,15,7],
@@ -63,18 +63,18 @@ public $Blocks = [
     "Snow" => [80,0,500,50],
     "Stone Bricks" => [98,0,500,50],
     "White Stained Glass" => [160,0,500,50],
-    "Orange Stained Glass" => [160,1,1000,100],
-    "Magenta Stained Glass" => [160,2,1000,100],
-    "Light Blue Stained Glass" => [160,3,1000,100],
-    "Yellow Stained Glass" => [160,4,1000,100],
-    "Lime Stained Glass" => [160,5,1000,100],
-    "Slime Blocks" => [165,0,5000,500]
+    "Orange Stained Glass" => [160,1,1000,10],
+    "Magenta Stained Glass" => [160,2,1000,10],
+    "Light Blue Stained Glass" => [160,3,1000,10],
+    "Yellow Stained Glass" => [160,4,1000,10],
+    "Lime Stained Glass" => [160,5,1000,10],
+    "Slime Blocks" => [165,0,5000,50]
   ];
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
     "Coal" => [263,0,100,10],
-    "Iron Ingot" => [265,0,200,2],
+    "Iron Ingot" => [265,0,200,50],
     "Gold Ingot" => [266,0,300,2],
     "Diamond" => [264,0,500,3],
     "Lapis" => [351,4,500,20]
@@ -105,7 +105,7 @@ public $Blocks = [
     "Melon" => [360,13,50,25],
     "Carrot" => [391,0,80,20],
     "Potato" => [392,0,80,20],
-    "Sugarcane" => [338,0,80,40],
+    "Sugarcane" => [338,0,80,10],
     "Wheat" => [296,6,80,40],
     "Pumpkin Seed" => [361,0,20,10],
     "Melon Seed" => [362,0,20,10],
@@ -114,16 +114,14 @@ public $Blocks = [
 
   public $Miscellaneous = [
     "ICON" => ["Miscellaneous",368,0],
-	"PVP Elixir" => [373,101,35000,500],
-	"Raiding Elixir" => [373,100,10000,500],
 	"Furnace" => [61,0,20,10],
     "Crafting Table" => [58,0,20,10],
-	"Ender Chest " => [130,0,1000,500],
+	"Ender Chest " => [130,0,1000,50],
     "Enderpearl" => [368,0,1000,500],
     "Bone" => [352,0,50,25],
     "Book & Quill" => [386,0,100,0],
     "Elytra" => [444,0,1000,0],
-    "Boats" => [333,0,1000,500],
+    "Boats" => [333,0,1000,10],
     "Totem of Undying" => [450,0,1000,500],
     "Brewing Stand" => [117,0,500,20],
     "Carpet" => [171,0,100,5],
@@ -145,7 +143,7 @@ public $Blocks = [
     "Lava" => [10,0,50,10],
     "Redstone" => [331,0,50,25],
     "Chest" => [54,0,100,50],
-    "TNT" => [46,0,10000,500]
+    "TNT" => [46,0,10000,50]
   ];
 	
   public $Mobs = [
@@ -156,8 +154,8 @@ public $Blocks = [
     "Skeleton" => [52,34,40000,35000],
     "Zombie" => [52,32,55000,44000],
     "Blaze" => [52,43,500000,5000],
-    "Iron Golem" => [52,20,1000000,500000],
-    "Zombie Pigman" => [52,36,100000,50000]
+    "Iron Golem" => [52,20,100000,500000],
+    "Zombie Pigman" => [52,36,1000000,50000]
   ];
 
   public $Potions = [
@@ -184,8 +182,8 @@ public $Blocks = [
   public $MobDrop = [
     "ICON" => ["MobDrop",369,0],
     "Blaze Rod" => [369,0,500,50],
-    "Gold Nuggets" => [371,0,500,10],
-    "Rotten Flesh" => [367,0,500,50],
+    "Gold Nuggets" => [371,0,500,100],
+    "Rotten Flesh" => [367,0,500,25],
     "GunPowder" => [289,0,500,50]
   ];
   
