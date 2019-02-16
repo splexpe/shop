@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener {
   "Item name" => [item_id, item_damage, buy_price, sell_price]
   */
 public $Blocks = [
-    "ICON" => ["§bBlocks",2,0],
+    "ICON" => ["Blocks",2,0],
     "Oak Wood" => [17,0,30,15],
     "Birch Wood" => [17,2,30,15],
     "Spruce Wood" => [17,1,30,15],
@@ -72,7 +72,7 @@ public $Blocks = [
   ];
 
   public $Ores = [
-    "ICON" => ["§6Ores",266,0],
+    "ICON" => ["Ores",266,0],
     "Coal" => [263,0,100,10],
     "Iron Ingot" => [265,0,200,50],
     "Gold Ingot" => [266,0,300,2],
@@ -81,7 +81,7 @@ public $Blocks = [
   ];
 
   public $Tools = [
-    "ICON" => ["§cTools",278,0],
+    "ICON" => ["Tools",278,0],
     "Diamond Pickaxe" => [278,0,500,250],
     "Diamond Shovel" => [277,0,500,250],
     "Diamond Axe" => [279,0,500,250],
@@ -92,7 +92,7 @@ public $Blocks = [
   ];
 
   public $Armor = [
-    "ICON" => ["§aArmor",311,0],
+    "ICON" => ["Armor",311,0],
     "Diamond Helmet" => [310,0,1000,0],
     "Diamond Chestplate" => [311,0,2500,0],
     "Diamond Leggings" => [312,0,1500,0],
@@ -100,7 +100,7 @@ public $Blocks = [
   ];
 
   public $Farming = [
-    "ICON" => ["§3Farming",293,0],
+    "ICON" => ["Farming",293,0],
     "Pumpkin" => [86,0,50,25],
     "Melon" => [360,13,50,25],
     "Carrot" => [391,0,80,20],
@@ -113,7 +113,7 @@ public $Blocks = [
   ];
 
   public $Miscellaneous = [
-    "ICON" => ["§7Miscellaneous §7& §dFood",368,0],
+    "ICON" => ["Miscellaneous",368,0],
     "Steak" => [364,0,15,0],	         
     "Cooked Chicken" => [366,0,15,0],	  
     "Furnace" => [61,0,20,10],
@@ -137,7 +137,7 @@ public $Blocks = [
   ];
 
   public $Raiding = [
-    "ICON" => ["§4Raiding",46,0],
+    "ICON" => ["Raiding",46,0],
     "Flint & Steel" => [259,0,100,50],
     "Torch" => [50,0,5,2],
 	"Packed Ice " => [174,0,500,250],
@@ -149,7 +149,7 @@ public $Blocks = [
   ];
 	
   public $Mobs = [
-    "ICON" => ["§fSpawners §cBROKEN",52,0],
+    "ICON" => ["Mobs",52,0],
     "Chicken" => [52,10,10000,5000],
     "Cow" => [52,11,20000,5000],
     "Sheep" => [52,13,30000,5000],
@@ -161,7 +161,7 @@ public $Blocks = [
   ];
 
   public $Potions = [
-    "ICON" => ["§ePotions",373,0],
+    "ICON" => ["Potions",373,0],
     "Strength" => [373,33,1000,100],
     "Regeneration" => [373,28,1000,100],
     "Speed" => [373,16,1000,500],
@@ -173,7 +173,7 @@ public $Blocks = [
   ];
 
   public $Skulls = [
-    "ICON" => ["§5Heads",397,0],
+    "ICON" => ["Heads",397,0],
     "Zombie Skull" => [397,2,500,50],
     "Wither Skull" => [397,1,500,50],
     "Skin Head" => [397,3,50,10],
@@ -183,7 +183,7 @@ public $Blocks = [
   ];
 	
   public $MobDrop = [
-    "ICON" => ["§9Mob§aDrops",369,0],
+    "ICON" => ["MobDrop",369,0],
     "Blaze Rod" => [369,0,500,50],
     "Gold Nuggets" => [371,0,500,100],
     "Rotten Flesh" => [367,0,500,25],
@@ -191,7 +191,7 @@ public $Blocks = [
   ];	
   
   public $Banners = [
-   "ICON" => ["§8Banners",446,0],
+   "ICON" => ["Banners",446,0],
    "Black Banner" => [446,0,1000,0],
    "Red Banner" => [446,1,2000,0],
    "Green Banner" => [446,2,3000,0],
