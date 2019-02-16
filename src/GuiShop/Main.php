@@ -1,4 +1,4 @@
-bB<?php
+<?php
 
 namespace GuiShop;
 
