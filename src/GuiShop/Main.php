@@ -48,11 +48,11 @@ public $Blocks = [
     "Planks" => [5,0,20,10],
     "Prismarine" => [168,0,30,20],
     "End Stone" => [121,0,30,20],
-    "Emerald Block" => [133,0,10000,50],
-    "Diamond Block" => [57,0,10000,50],
+    "Emerald Block" => [133,0,100000,50],
+    "Diamond Block" => [57,0,100000,50],
     "Glass" => [20,0,50,30],
-    "Iron Block" => [42,0,5000,30],
-    "Gold Block" => [41,0,5000,30],
+    "Iron Block" => [42,0,500000,30],
+    "Gold Block" => [41,0,500000,30],
     "Purpur Blocks" => [201,0,50,30],
     "Quartz Block" => [155,0,100,30],
     "Sea Lantern" => [169,0,100,30],
@@ -73,11 +73,11 @@ public $Blocks = [
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,100,10],
-    "Iron Ingot" => [265,0,200,50],
-    "Gold Ingot" => [266,0,300,2],
-    "Diamond" => [264,0,500,3],
-    "Lapis" => [351,4,500,20]
+    "Coal" => [263,0,10000,10],
+    "Iron Ingot" => [265,0,20000,50],
+    "Gold Ingot" => [266,0,30000,2],
+    "Diamond" => [264,0,50000,3],
+    "Lapis" => [351,4,50000,20]
   ];
 
   public $Tools = [
@@ -185,7 +185,7 @@ public $Blocks = [
   public $MobDrop = [
     "ICON" => ["MobDrop",369,0],
     "Blaze Rod" => [369,0,500,50],
-    "Gold Nuggets" => [371,0,500,100],
+    "Gold Nuggets" => [371,0,500,50],
     "Rotten Flesh" => [367,0,500,25],
     "GunPowder" => [289,0,500,50]
   ];	
