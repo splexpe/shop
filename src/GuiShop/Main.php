@@ -113,9 +113,9 @@ public $Blocks = [
   ];
 
   public $Miscellaneous = [
-    "ICON" => ["§7Miscellaneous §7/ §dFood",368,0],
-    "Steak" => [364,0,15,0]	         
-    "Cooked Chicken" => [366,0,15,0]	  
+    "ICON" => ["§7Miscellaneous §7& §dFood",368,0],
+    "Steak" => [364,0,15,0],	         
+    "Cooked Chicken" => [366,0,15,0],	  
     "Furnace" => [61,0,20,10],
     "Crafting Table" => [58,0,20,10],
     "Ender Chest " => [130,0,1000,50],
