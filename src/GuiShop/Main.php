@@ -122,9 +122,7 @@ public $Blocks = [
     "Enderpearl" => [368,0,1000,500],
     "Bone" => [352,0,50,25],
     "Book & Quill" => [386,0,100,0],
-    "Elytra" => [444,0,1000,0],
     "Boats" => [333,0,1000,10],
-    "Totem of Undying" => [450,0,1000,500],
     "Brewing Stand" => [117,0,500,20],
     "Carpet" => [171,0,100,5],
     "White Bed" => [355,0,100,10],
@@ -189,26 +187,7 @@ public $Blocks = [
     "Rotten Flesh" => [367,0,500,25],
     "GunPowder" => [289,0,500,50]
   ];	
-  
-  public $Banners = [
-   "ICON" => ["Banners",446,0],
-   "Black Banner" => [446,0,1000,0],
-   "Red Banner" => [446,1,2000,0],
-   "Green Banner" => [446,2,3000,0],
-   "Brown Banner" => [446,3,4000,0],
-   "Blue Banner" => [446,4,5000,0],
-   "Purple Banner" => [446,5,6000,0],
-   "Cyan Banner" => [446,6,7000,0],
-   "Light Gray Banner" => [446,7,8000,0],
-   "Gray Banner" => [446,8,9000,0],
-   "Pink Banner" => [446,9,10000,0],
-   "Lime Banner" => [446,10,11000,0],
-   "Yellow Banner" => [446,11,12000,0],
-   "Light Blue Banner" => [446,12,13000,0],
-   "Magenta Banner" => [446,13,14000,0],
-   "Orange Banner" => [446,14,15000,0]
- ];
-	
+
   public function onEnable(){
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
     PacketPool::registerPacket(new GuiDataPickItemPacket());
@@ -220,7 +199,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§7Metro§3PvP §fShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§bFallen §fFactions","       §3Purchase and Sell items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -237,7 +216,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§cSplex§dPE §fShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§bFallen §fFactions","       §3Purchase and Sell items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
