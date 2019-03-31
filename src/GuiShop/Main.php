@@ -42,17 +42,13 @@ public $Blocks = [
     "Glass" => [20,0,50,25],
     "Glowstone" => [89,0,100,50],
     "Sea Lantern" => [169,0,100,50],
-	"Grass" => [2,0,20,10],
-	"Dirt" => [3,0,10, 5],
+    "Grass" => [2,0,20,10],      
+    "Dirt" => [3,0,10, 5],
     "Stone" => [1,0,20,10],
     "Planks" => [5,0,20,10],
     "Prismarine" => [168,0,30,20],
     "End Stone" => [121,0,30,20],
-    "Emerald Block" => [133,0,10000,50],
-    "Diamond Block" => [57,0,10000,50],
     "Glass" => [20,0,50,30],
-    "Iron Block" => [42,0,50000,30],
-    "Gold Block" => [41,0,50000,30],
     "Purpur Blocks" => [201,0,50,30],
     "Quartz Block" => [155,0,100,30],
     "Sea Lantern" => [169,0,100,30],
@@ -73,11 +69,11 @@ public $Blocks = [
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,10000,10],
-    "Iron Ingot" => [265,0,20000,50],
-    "Gold Ingot" => [266,0,30000,2],
-    "Diamond" => [264,0,50000,3],
-    "Lapis" => [351,4,50000,20]
+    "Coal" => [263,0,1000,10],
+    "Iron Ingot" => [265,0,2000,50],
+    "Gold Ingot" => [266,0,3000,2],
+    "Diamond" => [264,0,5000,3],
+    "Lapis" => [351,4,5000,20]
   ];
 
   public $Tools = [
@@ -87,6 +83,11 @@ public $Blocks = [
     "Diamond Axe" => [279,0,500,250],
     "Diamond Hoe" => [293,0,500,250],
     "Diamond Sword" => [276,0,750,375],
+    "Iron Pickaxe" => [257,0,500,0],
+    "Iron Shovel" => [256,0,500,0],
+    "Iron Axe" => [258,0,500,0],
+    "Iron Hoe" => [292,0,500,0],
+    "Iron Sword" => [267,0,500,0],	  
     "Bow" => [261,0,400,200],
     "Arrow" => [262,0,25,5]
   ];
@@ -96,7 +97,12 @@ public $Blocks = [
     "Diamond Helmet" => [310,0,1000,0],
     "Diamond Chestplate" => [311,0,2500,0],
     "Diamond Leggings" => [312,0,1500,0],
-    "Diamond Boots" => [313,0,1000,0]
+    "Diamond Boots" => [313,0,1000,0],
+    "Iron Helmet" => [306,0,750,0],
+    "Iron Chestplate" => [307,0,750,0],
+    "Iron Leggings" => [308,0,750,0],	
+    "Iron Boots" => [309,0,750,0]  
+	  
   ];
 
   public $Farming = [
@@ -113,13 +119,14 @@ public $Blocks = [
   ];
 
   public $Miscellaneous = [
-    "ICON" => ["Miscellaneous",368,0],
+    "ICON" => ["Miscellaneous / Food",368,0],
     "Steak" => [364,0,15,0],	         
     "Cooked Chicken" => [366,0,15,0],	  
+    "Golden Apple" => [322,0,1000,100],  
     "Furnace" => [61,0,20,10],
     "Crafting Table" => [58,0,20,10],
     "Ender Chest " => [130,0,1000,50],
-    "Enderpearl" => [368,0,1000,500],
+    "Enderpearl" => [368,0,1000,100],
     "Bone" => [352,0,50,25],
     "Book & Quill" => [386,0,100,0],
     "Boats" => [333,0,1000,10],
@@ -138,7 +145,7 @@ public $Blocks = [
     "ICON" => ["Raiding",46,0],
     "Flint & Steel" => [259,0,100,50],
     "Torch" => [50,0,5,2],
-	"Packed Ice " => [174,0,500,250],
+    "Packed Ice " => [174,0,500,250],
     "Water" => [9,0,50,10],
     "Lava" => [10,0,50,10],
     "Redstone" => [331,0,50,25],
@@ -199,7 +206,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§bFallen §fFactions","       §3Purchase and Sell items Here!");
+    $ui = new SimpleForm("§8< §eMetro §7PvP §8>","       §3Purchase and Sell items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -216,7 +223,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§bFallen §fFactions","       §3Purchase and Sell items Here!");
+    $ui = new SimpleForm("§8< §eMetro §7PvP §8>","       §3Purchase and Sell items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
