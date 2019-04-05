@@ -119,7 +119,7 @@ public $Blocks = [
   ];
 
   public $Miscellaneous = [
-    "ICON" => ["Miscellaneous / Food",368,0],
+    "ICON" => ["Miscellaneous",368,0],
     "Steak" => [364,0,15,0],	         
     "Cooked Chicken" => [366,0,15,0],	  
     "Golden Apple" => [322,0,1000,100],  
@@ -179,11 +179,11 @@ public $Blocks = [
 
   public $Skulls = [
     "ICON" => ["Heads",397,0],
-    "Zombie Skull" => [397,2,500,50],
-    "Wither Skull" => [397,1,500,50],
-    "Skin Head" => [397,3,50,10],
-    "Creeper Skull" => [397,4,500,50],
-    "Dragon Skull" => [397,5,1000,60],
+    "Zombie Skull" => [397,0,500,50],
+    "Wither Skull" => [397,0,500,50],
+    "Skin Head" => [397,0,50,10],
+    "Creeper Skull" => [397,0,500,50],
+    "Dragon Skull" => [397,0,1000,60],
     "Skeleton Skull" => [397,0,500,50]
   ];
 	
