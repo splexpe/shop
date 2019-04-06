@@ -69,11 +69,11 @@ public $Blocks = [
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,1000,10],
-    "Iron Ingot" => [265,0,2000,50],
-    "Gold Ingot" => [266,0,3000,2],
-    "Diamond" => [264,0,5000,3],
-    "Lapis" => [351,4,5000,20]
+    "Coal" => [263,0,100,10],
+    "Iron Ingot" => [265,0,200,50],
+    "Gold Ingot" => [266,0,300,150],
+    "Diamond" => [264,0,500,250],
+    "Lapis" => [351,4,500,250]
   ];
 
   public $Tools = [
@@ -190,7 +190,7 @@ public $Blocks = [
   public $MobDrop = [
     "ICON" => ["MobDrop",369,0],
     "Blaze Rod" => [369,0,500,50],
-    "Gold Nuggets" => [371,0,500,50],
+    "Gold Nuggets" => [371,0,500,25],
     "Rotten Flesh" => [367,0,500,25],
     "GunPowder" => [289,0,500,50]
   ];	
