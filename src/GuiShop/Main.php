@@ -71,7 +71,6 @@ public $Blocks = [
     "ICON" => ["Ores",266,0],
     "Coal" => [263,0,100,10],
     "Iron Ingot" => [265,0,200,50],
-    "Gold Ingot" => [266,0,300,150],
     "Diamond" => [264,0,500,250],
     "Lapis" => [351,4,500,250]
   ];
@@ -167,14 +166,14 @@ public $Blocks = [
 
   public $Potions = [
     "ICON" => ["Potions",373,0],
-    "Strength" => [373,33,1000,100],
-    "Regeneration" => [373,28,1000,100],
-    "Speed" => [373,16,1000,500],
-    "Fire Resistance" => [373,13,1000,100],
-    "Poison (SPLASH)" => [438,27,1000,100],
-    "Healing II (SPLASH)" => [438,22,1000,100],
-    "Weakness (SPLASH)" => [438,35,1000,100],
-    "Slowness (SPLASH)" => [438,17,1000,100]
+    "Strength" => [373,33,100,100],
+    "Regeneration" => [373,28,100,100],
+    "Speed" => [373,16,100,500],
+    "Fire Resistance" => [373,13,100,100],
+    "Poison (SPLASH)" => [438,27,100,100],
+    "Healing II (SPLASH)" => [438,22,100,100],
+    "Weakness (SPLASH)" => [438,35,100,100],
+    "Slowness (SPLASH)" => [438,17,100,100]
   ];
 
   public $Skulls = [
@@ -189,10 +188,10 @@ public $Blocks = [
 	
   public $MobDrop = [
     "ICON" => ["MobDrop",369,0],
-    "Blaze Rod" => [369,0,500,50],
-    "Gold Nuggets" => [371,0,500,25],
-    "Rotten Flesh" => [367,0,500,25],
-    "GunPowder" => [289,0,500,50]
+    "Blaze Rod" => [369,0,500,200],
+    "Gold Nuggets" => [371,0,500,50],
+    "Rotten Flesh" => [367,0,500,150],
+    "GunPowder" => [289,0,500,]
   ];	
 
   public function onEnable(){
