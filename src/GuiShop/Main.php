@@ -106,14 +106,14 @@ public $Blocks = [
 
   public $Farming = [
     "ICON" => ["Farming",293,0],
-    "Pumpkin" => [86,0,50,25],
-    "Melon" => [360,13,50,25],
+    "Pumpkin" => [86,0,300,150],
+    "Melon" => [360,13,400,200],
     "Carrot" => [391,0,80,20],
-    "Potato" => [392,0,80,20],
+    "Potato" => [392,0,150,75],
     "Sugarcane" => [338,0,80,10],
     "Wheat" => [296,6,80,40],
-    "Pumpkin Seed" => [361,0,20,10],
-    "Melon Seed" => [362,0,20,10],
+    "Pumpkin Seed" => [361,0,400,150],
+    "Melon Seed" => [362,0,350,10],
     "Seed" => [295,0,20,10]
   ];
 
@@ -121,7 +121,8 @@ public $Blocks = [
     "ICON" => ["Miscellaneous",368,0],
     "Steak" => [364,0,15,0],	         
     "Cooked Chicken" => [366,0,15,0],	  
-    "Golden Apple" => [322,0,1000,100],  
+    "Golden Apple" => [322,0,500,100],  
+    "Enchanted Golden Apple" => [466,0,1000,100],  	  
     "Furnace" => [61,0,20,10],
     "Crafting Table" => [58,0,20,10],
     "Ender Chest " => [130,0,1000,50],
@@ -205,7 +206,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§8< §eMetro §7PvP §8>","       §3Purchase and Sell items Here!");
+    $ui = new SimpleForm("§8< §dFallen §fFactions §8>","       §3Purchase and Sell items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -222,7 +223,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§8< §eMetro §7PvP §8>","       §3Purchase and Sell items Here!");
+    $ui = new SimpleForm("§8< §dFallen §fFactions §8>","       §3Purchase and Sell items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
